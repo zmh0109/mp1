@@ -1,18 +1,106 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>MP1 Starter</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>MP1 Starter</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <div class="test"> My name is Anthony.</div>
+
+<div id="header" class="color">
+    <h1>Hearthstone: Heros of Warcraft</h1>
+</div>
+
+<ul >
+    <li class ="page_at_top" id="li4"><a href="#deck">Heros</a></li>
+    <li class ="page_at_top" id="li3"><a href="#video">Video</a></li>
+    <li class ="page_at_top" id="li2"><a href="#news">News</a></li>
+    <li class ="page_at_top" id="li1"><a href="#intro">Intro</a></li>
+</ul>
+
+<svg width="400" height="180" class="SVG">
+    <rect x="50" y="20" rx="20" ry="20" width="100" height="100"
+          style="fill:red;stroke:black;stroke-width:5;opacity:1" />
+</svg>
+
+<svg height="100" width="100" class="SVGtext">
+    <text x="0" y="20" fill="white">Play Now!</text>
+</svg>
+
+<div id="intro">
+    <h1 class="intro_section">Intro</h1>
+    <p class="intro_section">
+        <b> Hearthstone: Heroes of Warcraft </b> is a digital collectible card game (CCG) developed by Blizzard Entertainment.It is a
+        free-to-play with unlimited paid booster packs, and limited (by daily cap and randomized objective provision) free
+        acquisition of in-game currency used to obtain booster packs. Announced at the Penny Arcade Expo in March 2013, the game
+        was released on 11 March 2014. Hearthstone is available on Microsoft Windows and OS X systems and on iPad, Android tablet
+        and Windows 8 Touch devices
+    </p>
 
 
-  <script src="lib/jquery-2.1.3.min/index.js"></script>
-  <script src="js/script.js"></script>
-  <script src="http://localhost:35729/livereload.js"></script>
+
+</div>
+<img class="background" src="background.jpg" alt="Priest" style="width:1400px;height:680px" id="bimg">
+<div id="news">
+    <h2 class="news_title">News</h2>
+    <div class="news_section1">
+    <p >
+        Take heart, young one, theHearthstone World Championship is near! Soon, 16 of the most skilled card-slingers from all over the world will gather together
+        to duel for a treasure trove of $250,000. Players from the Americas, Europe, China, Korea, and Taiwan have been placed in four different groups, with each
+        player vying for a spot within the Top 8 finalists!
+    </p>
+    </div>
+    <div class="news_section2">
+    <p >
+        The Hearthstone World Championship begins on November 2nd and 3rd at 10:00 a.m. PST at ESL’s Burbank Studio. Community casters Dan “Artosis” Stemkoski,
+
+
+        We also have additional streams for those looking to watch the Hearthstone World Championship in other languages.
+    </p>
+        </div>
+    <div class="news_section3">
+    <p >
+        The Road to BlizzCon concludes on November 7th and 8th at BlizzCon 2014, where the remaining 12 players will duel for a chance at Hearthstone glory.
+        Marcus "djWheat" Graham and Rachel "Seltzer" Quirico will be on hand to interview players, while Marcin "Gnimsh" Filipowicz, Dan "Frodan" Chou,
+        Jason "Amaz" Chan, Ryan "Realz" Masterson and Nathan "ThatsAdmirable" Zamora add insightful and entertaining commentary!
+    </p>
+        </div>
+</div>
+
+<div id="video">
+    <video width="1000" height="500" controls class="video">
+        <source src="video.mp4" type="video/mp4">
+
+        Your browser does not support HTML5 video.
+    </video>
+</div>
+
+<div id="deck">
+
+    <div  class="left"><div id="left_a">&#8656;</div></div>
+    <div  class="right"><div id="right_a">&#8658;</div></div>
+    <img class="image1" src="1.jpg" alt="Priest" style="width:500px;height:400px" id="img1">
+    <img class="image2" src="6.jpg" alt="Priest" style="width:500px;height:400px" id="img2">
+    <img class="image3" src="4.jpg" alt="Priest" style="width:500px;height:400px" id="img3">
+    <img class="image1_1" src="1.jpg" alt="Priest" style="width:1000px;height:550px" id="img1_1">
+    <img class="image2_1" src="6.jpg" alt="Priest" style="width:1000px;height:550px" id="img2_1">
+    <img class="image3_1" src="4.jpg" alt="Priest" style="width:1000px;height:550px" id="img3_1">
+    <img class="facebook" src="facebook.jpg" alt="Priest" style="width:100px;height:100px" >
+    <img class="twitter" src="twitter.jpg" alt="Priest" style="width:100px;height:100px" >
+</div>
+<div id="footer">
+    Created By Minhao Zhan, Grad student Computer Science @ University of Illinois Urbana-Champaign
+</div>
+
+
+
+
+
+<script src="lib/jquery-2.1.3.min/index.js"></script>
+<script src="js/script.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>
